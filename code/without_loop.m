@@ -1,37 +1,3 @@
-% Simulating B-mode Ultrasound Images Example
-%
-% This example illustrates how k-Wave can be used for the simulation of
-% B-mode ultrasound images using a phased-array or sector transducer. It
-% builds on the Simulating B-mode Ultrasound Images Example.
-%
-% To allow the simulated scan line data to be processed multiple times with
-% different settings, the simulated RF data is saved to disk. This can be
-% reloaded by setting RUN_SIMULATION = false within the example m-file. The
-% data can also be downloaded from
-% http://www.k-wave.org/datasets/example_us_phased_array_scan_lines.mat 
-%
-% author: Bradley Treeby
-% date: 7th September 2012
-% last update:  26th August 2014
-%  
-% This function is part of the k-Wave Toolbox (http://www.k-wave.org)
-% Copyright (C) 2009-2014 Bradley Treeby and Ben Cox
-
-% This file is part of k-Wave. k-Wave is free software: you can
-% redistribute it and/or modify it under the terms of the GNU Lesser
-% General Public License as published by the Free Software Foundation,
-% either version 3 of the License, or (at your option) any later version.
-% 
-% k-Wave is distributed in the hope that it will be useful, but WITHOUT ANY
-% WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-% FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
-% more details. 
-% 
-% You should have received a copy of the GNU Lesser General Public License
-% along with k-Wave. If not, see <http://www.gnu.org/licenses/>. 
-
-%#ok<*UNRCH>
-
 clear all;
 % addpath('D:\Hareesh\YSC\K-Wave-toolbox-1.1\k-Wave')
 % simulation settings
